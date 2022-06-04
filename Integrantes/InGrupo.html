@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Integrantes</title>
+  <link rel="stylesheet" href="estilos/estilo.css" />
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+</head>
+
+<body>
+  <header class="header-area">
+    <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <nav class="classy-navbar justify-content-between" id="alimeNav">
+                    <div class="classy-menu">
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="./index.html">Inicio</a></li>
+                                <li><a href="./catalogo.html">Catálogo</a></li>
+                                <li class="active"><a href="./compras.html">Compras</a></li>
+                                <li><a href="./empresa.html">Quienes Somos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="welcome-area">
+    <div class="welcome-slides owl-carousel">
+
+        <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/INICIO.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+
+                    <div class="col-12 col-lg-8 col-xl-9">
+                        <div class="welcome-text">
+                            <h2 data-animation="bounceInDown" data-delay="900ms">Bienvanidos a<br>PCENTER</h2>
+                            <p data-animation="bounceInDown" data-delay="500ms">Encuentra aquí los mejores componentes para tu PC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/INICIO2.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+
+                    <div class="col-12 col-lg-8 col-xl-9">
+                        <div class="welcome-text">
+                            <h2 data-animation="bounceInUp" data-delay="100ms">Bienvanidos a<br>PCENTER</h2>
+                            <p data-animation="bounceInUp" data-delay="500ms">Encuentra aquí los mejores componentes para tu PC</p>
+                            <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
+                                <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Registrate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="alime-portfolio-area section-padding-80 clearfix">
+    <div class="container-fluid">
+
+    </div>
+</div>
+
+  <style type="text/css">
+    /*=====================================
+      reset estilos
+      no es necesario que copies esto
+      =====================================*/
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 1000%;
+      line-height: 1;
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      color: #404040;
+      font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+    }
+
+    /*=====================================
+      estilos de la utilidad
+      Copiar esto
+      =====================================*/
+    .contenedor-fondo-animado {
+      display: block;
+      
+      background: linear-gradient(#39BBDC, #FF3192);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .seccion-contenido {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .seccion-contenido .contenido {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+      z-index: 5;
+    }
+
+    .seccion-contenido .contenido h4 {
+      font-size: 4rem;
+      margin-bottom: 2.5rem;
+      font-family: Lucida Handwriting;
+    }
+
+    .seccion-contenido .contenido p {
+      font-style: italic;
+      font-size: 1.75rem;
+      margin-bottom: 3.5rem;
+      font-family: Gill Sans MT;
+    }
+
+    .seccion-contenido .contenido h4,
+    .seccion-contenido .contenido p {
+      text-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    }
+
+    .seccion-contenido .contenido ul {
+      list-style: none;
+    }
+
+    .seccion-contenido .contenido ul a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.2em;
+      padding: 15px;
+      border-radius: 12px;
+      transition: all ease-in 100ms;
+      transform: translateY(0)
+    }
+
+    .seccion-contenido .contenido ul a:hover {
+      transform: translateY(-.5rem);
+    }
+
+    .seccion-contenido .contenido li:nth-child(1) a {
+      border: 3px solid #E86BFF;
+    }
+
+    .seccion-contenido .contenido li:nth-child(2) a {
+      border: 3px solid #90BAFF;
+    }
+
+    .seccion-contenido .contenido li:nth-child(3) a {
+      border: 3px solid #FF5071;
+    }
+
+    .seccion-contenido .contenido ul li {
+      display: inline-block;
+    }
+
+    .seccion-contenido .contenido ul li+li {
+      margin-left: 2.5rem;
+    }
+
+    /* animacion */
+    .animacion {
+      z-index: 1;
+    }
+
+    span.cuatro,
+    span.dos,
+    span.tres,
+    span.uno {
+      border: 0;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: #fff;
+      animation: vuela 7s linear infinite normal both;
+    }
+
+    span.uno {
+      width: 100px;
+      height: 100px;
+      background-color: #E86BFF;
+      bottom: -100px;
+    }
+
+    span.dos {
+      width: 100px;
+      height: 70px;
+      background-color: #90BAFF;
+      bottom: -70px;
+    }
+
+    span.tres {
+      width: 50px;
+      height: 50px;
+      background-color: #FF5071;
+      bottom: -50px;
+    }
+
+    span.cuatro {
+      width: 20px;
+      height: 20px;
+      background-color: #67F3D4;
+      bottom: -20px;
+    }
+
+    @keyframes vuela {
+      from {
+        transform: rotate(0deg);
+        bottom: 0;
+        opacity: 0;
+      }
+
+      5% {
+        opacity: 1;
+      }
+
+      60% {
+        opacity: 1;
+      }
+
+      to {
+        transform: rotate(360deg);
+        bottom: calc(100% + 100px);
+        opacity: 0;
+      }
+    }
+
+    /* secuencia y orden */
+    .animacion span:nth-child(1) {
+      left: 10%;
+      animation-delay: 3s;
+    }
+
+    .animacion span:nth-child(2) {
+      left: 50%;
+    }
+
+    .animacion span:nth-child(3) {
+      left: 35%;
+      animation-delay: 5s;
+    }
+
+    .animacion span:nth-child(4) {
+      left: 75%;
+      animation-delay: 1s;
+    }
+
+    .animacion span:nth-child(6) {
+      left: 85%;
+      animation-delay: 3s;
+    }
+
+    .animacion span:nth-child(7) {
+      left: 90%;
+      animation-delay: 5s;
+    }
+
+    .animacion span:nth-child(8) {
+      left: 65%;
+    }
+
+    .animacion span:nth-child(9) {
+      left: 50%;
+    }
+
+    .animacion span:nth-child(10) {
+      left: 0%;
+      animation-delay: 9s;
+    }
+
+    .animacion span:nth-child(11) {
+      left: 10%;
+    }
+
+    .animacion span:nth-child(12) {
+      left: 10%;
+      animation-delay: 3s;
+    }
+  </style>
+  <!--==========================
+      =            html            =
+      ===========================-->
+  <section class="contenedor-fondo-animado">
+    <div class="animacion">
+      <!--  -->
+      <span class="uno"></span>
+      <span class="dos"></span>
+      <span class="tres"></span>
+      <span class="cuatro"></span>
+      <!--  -->
+      <span class="uno"></span>
+      <span class="dos"></span>
+      <span class="tres"></span>
+      <span class="cuatro"></span>
+      <!--  -->
+      <span class="uno"></span>
+      <span class="dos"></span>
+      <span class="tres"></span>
+      <span class="cuatro"></span>
+    </div>
+
+    <!--Integrantes-->
+    <div class="app">
+      <grupo-proyecto name="Jenniffer Goméz" avatar="images/Jenniffer.jpeg">
+        <span slot="nombre">Jenniffer Goméz Tuaréz</span>
+        <span slot="age">L00380321</span>
+        <span slot="materia"> Programación Integrativa de Componentes Web
+          <br>
+          Desarrollo Web para la Integración de Tecnologías
+        </span>
+      </grupo-proyecto>
+      <grupo-proyecto name="Jenniffer" avatar="images/Jenniffer.jpeg">
+        <span slot="nombre">Jenniffer Goméz Tuaréz</span>
+        <span slot="age">L00380321</span>
+        <span slot="materia"> Programación Integrativa de Componentes Web
+          <br>
+          Desarrollo Web para la Integración de Tecnologías
+        </span>
+      </grupo-proyecto>
+      <grupo-proyecto name="Jessie" avatar="images/Jessie.jpeg">
+        <span slot="nombre">Jessie Contreras Cedeño</span>
+        <span slot="age">L00385733</span>
+        <span slot="materia"> Programación Integrativa de Componentes Web
+          <br>
+          Desarrollo Web para la Integración de Tecnologías
+        </span>
+      </grupo-proyecto>
+      <grupo-proyecto name="Jenniffer" avatar="images/Jenniffer.jpeg">
+        <span slot="nombre">Jenniffer Goméz Tuaréz</span>
+        <span slot="age">L00380321</span>
+        <span slot="materia"> Programación Integrativa de Componentes Web
+          <br>
+          Desarrollo Web para la Integración de Tecnologías
+        </span>
+      </grupo-proyecto>
+    </div>
+  </section>
+  <!--====  End of html  ====-->
+
+  <!--=============================
+      redes sociales fijadas en pantalla
+      No es necesario que copies esto!
+      ==============================-->
+  <style>
+    .mensaje a {
+      color: inherit;
+      margin-right: .5rem;
+      display: inline-block;
+    }
+
+    .mensaje a:hover {
+      color: #309B76;
+      transform: scale(1.4)
+    }
+  </style>
+
+  <script src="JavaScript.js" type="module"></script>
+</body>
+<script src="js/jquery.min.js"></script>
+
+<script src="js/popper.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/alime.bundle.js"></script>
+
+<script src="js/default-assets/active.js"></script>
+</html>
