@@ -60,7 +60,7 @@
             </div>
 
             <div class="single-welcome-slidea bg-img bg-overlay"
-                style="background-image: url(img/bg-img/electrodomesticos.jpg);">
+                style="background-image: url(img/electro.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
 
@@ -92,9 +92,11 @@
 
 
 
-    <div id="cuadros">
-        
-    </div>
+        <footer>
+            <div id="footerr">
+                
+            </div>
+        </footer>
 
     <script>
         //Realiza un aislamiento que tiene el DOM que actua solo localmente en los elementos que se han definido
@@ -121,7 +123,7 @@
 
           //Realiza un aislamiento que tiene el DOM que actua solo localmente en los elementos que se han definido
         //Realiza conflictos de manera silenciosa 
-        const cuadros = document.querySelector('#cuadros');
+        const cuadros = document.querySelector('#footerr');
         //Crea un shadow  sobre el elementos, especificando el modo de encapsulado que sean accesibles los elementos de la raiz des javascript fuera de la raiz.
         cuadros.attachShadow({ mode: 'open' });
         //Devuelve una referencia del arbil DOM dentro de la etiqueta div shadow
@@ -137,16 +139,31 @@
             text-align: center;
             margin: auto;
         }
+        .pie p{
+            color: #ffffff;
+        }
+        .pie p:hover{
+            color:#F0E536
+        }
         td{
             
             border-collapse: separate;
             border-spacing: 70px 20px;
             padding:30px; 
         }
+        td.fondo{
+        transition: transform .2s; 
+        }
+ 
+        td.fondo:hover {
+        transform: scale(0.8); 
+        }
         .footer{
             color: #ffffff;
             background-color: #171717bf;
         }
+        
+        
 
         </style>
         <div class="texto-centrado">
@@ -154,45 +171,59 @@
         <table>
          
             <tr>
-                <td class=" fondo"style="background-image: url(img/mision.png); height: 40vh;">
+                <td class="fondo"style="background-image: url(img/mision.png); height: 40vh;">
             <h1>
             Misión 
             </h1>
             <p>Somos la mejor opción en productos electrodomésticos <br> para el hogar, garantizando un variedad de  productos  de <br>excelente calidad y con precios accesibles para <br> nuestros clientes.</p>
             </td>
 
-            <td class=" fondo"style="background-image: url(img/vision.png); height: 40vh;">
+            <td class="fondo"style="background-image: url(img/vision.png); height: 40vh;">
             <h1 >
             Visión 
              </h1>
              <p>Somos la mejor opción en productos electrodomésticos <br> para el hogar, garantizando un variedad de  productos <br> de excelente calidad y con precios accesibles para <br> nuestros clientes.</p>
             </td>
             </tr>
-        
         </table>
         </div>
         <div class="footer">
-        <h1>
-            Contactos 
-        </h1>
+            <table>
+        <td class="pie">
         <h3>
             Sucursal Quito
         </h3>
-       <b> Teléfonos:</b> (02) 274-6845<br>
-       <b> Dirección:</b> Av. Naciones Unidas E9-112 y Av. República del Salvador.
+       <p><b> Teléfonos:</b> (02) 274-6845<br></p>
+       <p><b> Dirección:</b> Av. Naciones Unidas E9-112 y Av. República del Salvador.</p>
 
         <br>
       <h3>
             Sucursal Guayaquil
         </h3>
-        <b> Teléfonos:</b>  (04) 252-6690<br>
-        <b> Dirección:</b> Cdla. Kennedy Norte, Calle José Castillo y Miguel Ángel Granados.
-        <h1 align="center">
-            Escríbenos 
-        </h1>
-        elecdomesti@gmail.com
+        <p><b> Teléfonos:</b>  (04) 252-6690<br></p>
+        <p><b> Dirección:</b> Cdla. Kennedy Norte, Calle José Castillo y Miguel Ángel Granados.</p>
+        </td>
+        <td class="pie">
+        <h3 align="center">
+            Servicio al cliente 
+        </h3>
+        <p>Contáctanos</p>
+        <p>¿Cómo comprar por internet?</p>
+        <p>Formas de pago</p>
+        <p>Términos de uso y privacidad</p>
+        <p>Términos de promociones</p>
+        <p>Garantía, cambios y devoluciones</p>
+        </td>
+        <td class="pie">
+            <h3 align="center">
+            Dirección 
+        </h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.647405746724!2d-79.44088760700238!3d-0.6250268355279112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902b2b1fc3cfd599%3A0x93006998de3e1a2e!2sRecinto%20Valdez!5e0!3m2!1ses-419!2sec!4v1654461337217!5m2!1ses-419!2sec" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </td>
+    </table> 
         </div>
-        </div> `;
+        </div>
+        `
+        ;
 
     </script>
 
