@@ -66,7 +66,8 @@
                                     <li><a href="./index.html">Inicio</a></li>
                                     <li><a href="./catalogo.php">Catálogo</a></li>
                                     <li><a href="./compras.php">Compras</a></li>
-                                    <li class="active"><a href="./empresa.html">Quienes Somos</a></li>
+                                    <li><a href="./empresa.html">Quienes Somos</a></li>
+                                    <li class="active"><a href="./index.php">Productos</a></li>
                                 </ul>
                             </div>
                         </div>
