@@ -50,7 +50,7 @@ session_start();
                             <div class="classynav">
                                 <ul id="nav">
                                 <li><a href="./index.html">Inicio</a></li>
-                                <li><a href="./catalogo.html">Catálogo</a></li>
+                                <li><a href="./cart/index.php">Catálogo</a></li>
                                 <li class="active"><a href="./compras.php">Compras</a></li>
                                 <li><a href="./InGrupo.html">Integrantes</a></li>
                                 <li><a href="./empresa.html">Quienes Somos</a></li>
