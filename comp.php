@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Inicio </title>
-    <link rel="stylesheet" href="php/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos </title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
-<body>
+
+<body class="fondo">
+   
     <header class="header-area">
         <div class="main-header-area">
             <div class="classy-nav-container breakpoint-off">
@@ -21,63 +22,75 @@
                             </div>
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="./index.html">Inicio</a></li>
-                                    <li><a href="cart/index.php">Catálogo</a></li>
-                                    <li><a href="compras.php">Compras</a></li>
-                                    <li><a href="Integrantes/InGrupo.html">Integrantes</a></li>
-                                    <li><a href="empresa.html">Quienes Somos</a></li>
-                                        <a style="background-color: rgb(207, 252, 7) ;
-                                         margin-right: 60px; border-radius: 5px; padding: 5px;"
-                                        href="php/login.php">  Iniciar Sesión  </a>
+                                    <li><a href="./index.html">Inicio</a></li>
+                                    <li><a href="./catalogo.php">Catálogo</a></li>
+                                    <li><a href="./compras.php">Compras</a></li>
+                                    <li><a href="./empresa.html">Quienes Somos</a></li>
+                                    <li><a href="./contacto.php">contáctanos </a></li>
                                 </ul>
-                               
                             </div>
-                            
+                        </div>
                     </nav>
                 </div>
             </div>
         </div>
-        
     </header>
-    
-</div>
+
+
+
+
     <section class="welcome-area">
         <div class="welcome-slides owl-carousel">
 
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/electrodomesticos1.jpg);">
+            <div class="single-welcome-slidea bg-img bg-overlay"
+                style="background-image: url(img/bg-img/electrodomesticos.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
 
                         <div class="col-12 col-lg-8 col-xl-9">
                             <div class="welcome-text">
-                                <h2 data-animation="bounceInDown" data-delay="900ms">Bienvanidos a<br>ELECDOMESTI</h2>
-                                <p data-animation="bounceInDown" data-delay="500ms">Encuentra aquí los mejores electrodomesticos para tu hogar</p>
+                                <h2 data-animation="bounceInUp" data-delay="100ms">Contáctanos</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">Encuentra aquí los mejores electrodomesticos para tu hogar</p>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/electrodomesticos.jpg);">
+            <div class="single-welcome-slidea bg-img bg-overlay"
+                style="background-image: url(img/electro.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
 
                         <div class="col-12 col-lg-8 col-xl-9">
                             <div class="welcome-text">
-                                <h2 data-animation="bounceInUp" data-delay="100ms">Bienvanidos a<br>ELECDOMESTI</h2>
+                               <h2 data-animation="bounceInUp" data-delay="100ms">¿Quiénes <br> Somos?</h2>
                                 <p data-animation="bounceInUp" data-delay="500ms">Encuentra aquí los mejores electrodomesticos para tu hogar</p>
-                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
-                                <!--<a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Registrate</a>-->
-                                </div>
-                            </div>
+                               
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
+     <br>
+     <br>
+     
+                      <div class="row justify-content-center">
+                          <div class="col-4">
+                          <div class="estilo">
+                        <h1>
+                         GRACIAS POR TU COMPRA !
+                        </h1>
+                        <h4>Si tienes dudas o sugerencias puedes comunicarte con nosostros a través del menú de contacto</h4>
+                             <br>
+                            <br>
+                            <br>
+                            <br>
+                         </div>
+                        </div>
+                      </div>
 </body>
 <script src="js/jquery.min.js"></script>
 

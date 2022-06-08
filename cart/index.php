@@ -148,7 +148,8 @@
                     <h4><?=$row['product_name']?></h4>
                     <div class="price-style">
                     <p class="price">$ <?=$row['price']?></p>
-                    <a href="actions.php?action_type=add_item&id=<?=$row['id']?>&product_name=<?=$row['product_name']?>&quantity=1&price=<?=$row['price']?>" class="btn btn-warning btn-style">Agregar al Carrito</a>
+                    <a href="actions.php?action_type=add_item&id=<?=$row['id']?>&product_name=<?=$row['product_name']?>
+                    &quantity=1&price=<?=$row['price']?>" class="btn btn-warning btn-style">Agregar al Carrito</a>
                     </div>
                   </div>
                </div>
