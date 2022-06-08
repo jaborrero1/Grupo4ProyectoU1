@@ -63,11 +63,13 @@
                             </div>
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li><a href="./index.html">Inicio</a></li>
-                                    <li><a href="./catalogo.php">Catálogo</a></li>
-                                    <li><a href="./compras.php">Compras</a></li>
-                                    <li><a href="./empresa.html">Quienes Somos</a></li>
-                                    <li class="active"><a href="./index.php">Productos</a></li>
+                                    <li><a href="../index.html">Inicio</a></li>
+                                    <li class="active"><a href="./index.php">Catálogo</a></li>
+                                    <li><a href="../compras.php">Compras</a></li>
+                                    <li><a href="../Integrantes/InGrupo.html">Integrantes</a></li>
+                                    
+                                    <li><a href="../empresa.html">Quienes Somos</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>

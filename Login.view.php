@@ -22,9 +22,9 @@
                             <div class="classynav">
                                 <ul id="nav">
                                     <li class="active"><a href="../index.html">Inicio</a></li>
-                                    <li><a href="#">Catálogo</a></li>
+                                    <li><a href="../cart/index.php">Catálogo</a></li>
                                     <!--<li><a href="./compras.php">Compras</a></li>-->
-                                    <li><a href="#">Quienes Somos</a></li>
+                                    <li><a href="../empresa.html">Quienes Somos</a></li>
                                         <a style="background-color: rgb(207, 252, 7) ;
                                          margin-right: 100px; border-radius: 5px; padding: 5px;"
                                         href="login.php">  Iniciar Sesión  </a>
