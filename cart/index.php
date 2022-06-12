@@ -2,14 +2,18 @@
 <!doctype html>
 <html lang="en">
   <head>
+<<<<<<< Updated upstream
 
   
+=======
+>>>>>>> Stashed changes
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="estilos/estilo.css" />
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="style.css">
@@ -17,6 +21,10 @@
  
     
     <title>Carrito</title>
+=======
+
+    <title>Cart Example</title>
+>>>>>>> Stashed changes
     <style type="text/css">
       .product-detail {
         padding:5px;
@@ -47,6 +55,7 @@
         margin-bottom: 10px;
       }
     </style>
+<<<<<<< Updated upstream
 
   </head>
   
@@ -126,6 +135,10 @@
     <div id="shadow">
 
     </div>
+=======
+  </head>
+  <body>
+>>>>>>> Stashed changes
     <h1 class="text-center">Carrito de compras</h1>
 
    <div class="container">
@@ -148,8 +161,12 @@
                     <h4><?=$row['product_name']?></h4>
                     <div class="price-style">
                     <p class="price">$ <?=$row['price']?></p>
+<<<<<<< Updated upstream
                     <a href="actions.php?action_type=add_item&id=<?=$row['id']?>&product_name=<?=$row['product_name']?>
                     &quantity=1&price=<?=$row['price']?>" class="btn btn-warning btn-style">Agregar al Carrito</a>
+=======
+                    <a href="actions.php?action_type=add_item&id=<?=$row['id']?>&product_name=<?=$row['product_name']?>&quantity=1&price=<?=$row['price']?>" class="btn btn-warning btn-style">Agregar al Carrito</a>
+>>>>>>> Stashed changes
                     </div>
                   </div>
                </div>
@@ -202,6 +219,7 @@
    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+<<<<<<< Updated upstream
     <footer>
             <div id="footerr">
                 
@@ -330,4 +348,10 @@
 <script src="js/alime.bundle.js"></script>
 
 <script src="js/default-assets/active.js"></script>
+=======
+    
+  </body>
+
+  
+>>>>>>> Stashed changes
 </html>
