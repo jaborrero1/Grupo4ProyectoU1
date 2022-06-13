@@ -78,6 +78,7 @@
                                     <li><a href="../Integrantes/InGrupo.html">Integrantes</a></li>
                                     
                                     <li><a href="../empresa.html">Quienes Somos</a></li>
+                                  <li><a href="../contacto.php">contáctanos </a></li>
                                     
                                 </ul>
                             </div>
