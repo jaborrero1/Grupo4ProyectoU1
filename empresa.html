@@ -22,14 +22,13 @@
                             <div class="classycloseIcon">
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
-                           <div class="classynav">
+                            <div class="classynav">
                                 <ul id="nav">
-                                <li><a href="./index.html">Inicio</a></li>
-                                <li><a href="./cart/index.php">Catálogo</a></li>
-                                <li ><a href="./compras.php">Compras</a></li>
-                                <li><a href="./Integrantes/InGrupo.html">Integrantes</a></li>
-                                <li class="active"><a href="./empresa.html">Quienes Somos</a></li>
-                            </ul>
+                                    <li><a href="./index.html">Inicio</a></li>
+                                    <li><a href="./catalogo.php">Catálogo</a></li>
+                                    <li><a href="./compras.php">Compras</a></li>
+                                    <li class="active"><a href="./empresa.html">Quienes Somos</a></li>
+                                </ul>
                             </div>
                         </div>
                     </nav>
@@ -37,6 +36,9 @@
             </div>
         </div>
     </header>
+
+
+
 
     <section class="welcome-area">
         <div class="welcome-slides owl-carousel">
@@ -48,8 +50,8 @@
 
                         <div class="col-12 col-lg-8 col-xl-9">
                             <div class="welcome-text">
-                                
-                           
+                                <h2 data-animation="bounceInUp" data-delay="100ms">¿Quiénes <br> Somos?</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">Encuentra aquí los mejores electrodomesticos para tu hogar</p>
                                 
                             </div>
                         </div>
@@ -64,6 +66,9 @@
 
                         <div class="col-12 col-lg-8 col-xl-9">
                             <div class="welcome-text">
+                               <h2 data-animation="bounceInUp" data-delay="100ms">¿Quiénes <br> Somos?</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">Encuentra aquí los mejores electrodomesticos para tu hogar</p>
+                               
                         </div>
                     </div>
                 </div>
@@ -99,15 +104,13 @@
         const shadow = document.querySelector('#shadow');
         //Crea un shadow  sobre el elementos, especificando el modo de encapsulado que sean accesibles los elementos de la raiz des javascript fuera de la raiz.
         shadow.attachShadow({ mode: 'open' });
-        //Devuelve una referencia del arbil DOM dentro de la etiqueta div shadow
+        //Devuelve una referencia del arbol DOM dentro de la etiqueta div shadow
         shadow.shadowRoot.innerHTML = `
        <style>
         .texto-justificado{
         text-align: center;
 
         }
-       
-      
         </style>
         <br>
         <div class="texto-justificado">
@@ -121,24 +124,16 @@
         const cuadros = document.querySelector('#footerr');
         //Crea un shadow  sobre el elementos, especificando el modo de encapsulado que sean accesibles los elementos de la raiz des javascript fuera de la raiz.
         cuadros.attachShadow({ mode: 'open' });
-        //Devuelve una referencia del arbil DOM dentro de la etiqueta div shadow
+        //Devuelve una referencia del arbol DOM dentro de la etiqueta div shadow
         cuadros.shadowRoot.innerHTML = `
         <style>
-        .texto-centrado{
-        text-align: center;
-         
-        }
-      
-       
-        table{
-            text-align: center;
-            margin: auto;
-        }
-        .pie p{
-            color: #ffffff;
-        }
-        .pie p:hover{
-            color:#F0E536
+            a{
+                color:#ffffff;
+                text-decoration: none;
+            } 
+            a:hover{
+            color:#F0E536;
+            
         }
         td{
             
@@ -153,18 +148,29 @@
         td.fondo:hover {
         transform: scale(0.8); 
         }
+        .texto-centrado{
+        text-align: center;
+         
+        }  
+        table{
+            text-align: center;
+            margin: auto;
+        }
+        .pie p{
+            color: #ffffff;
+        }
+        .pie p:hover{
+            color:#F0E536
+        }
+        
         .footer{
             color: #ffffff;
             background-color: #171717bf;
         }
-        
-        
-
         </style>
         <div class="texto-centrado">
             <div class="tabla">  
         <table>
-         
             <tr>
                 <td class="fondo"style="background-image: url(img/mision.png); height: 40vh;">
             <h1>
@@ -189,20 +195,23 @@
             Sucursal Quito
         </h3>
        <p><b> Teléfonos:</b> (02) 274-6845<br></p>
-       <p><b> Dirección:</b> Av. Naciones Unidas E9-112 y Av. República del Salvador.</p>
+       <p><b> Dirección:</b> Av. Naciones Unidas E9-112 <br> y Av. República del Salvador.</p>
 
         <br>
       <h3>
             Sucursal Guayaquil
         </h3>
         <p><b> Teléfonos:</b>  (04) 252-6690<br></p>
-        <p><b> Dirección:</b> Cdla. Kennedy Norte, Calle José Castillo y Miguel Ángel Granados.</p>
+        <p><b> Dirección:</b> Cdla. Kennedy Norte, Calle José Castillo <br> y Miguel Ángel Granados.</p>
+        </td>
+        <td>
+            
         </td>
         <td class="pie">
         <h3 align="center">
             Servicio al cliente 
         </h3>
-        <p>Contáctanos</p>
+        <p> <a href="contacto.php">Contáctanos</a></p>
         <p>¿Cómo comprar por internet?</p>
         <p>Formas de pago</p>
         <p>Términos de uso y privacidad</p>
@@ -213,7 +222,9 @@
             <h3 align="center">
             Dirección 
         </h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.647405746724!2d-79.44088760700238!3d-0.6250268355279112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902b2b1fc3cfd599%3A0x93006998de3e1a2e!2sRecinto%20Valdez!5e0!3m2!1ses-419!2sec!4v1654461337217!5m2!1ses-419!2sec" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </td>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31916.647405746724!2d-79.44088760700238!3d-0.6250268355279112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902b2b1fc3cfd599%3A0x93006998de3e1a2e!2sRecinto%20Valdez!5e0!3m2!1ses-419!2sec!4v1654461337217!5m2!1ses-419!2sec" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </td>
+        
     </table> 
         </div>
         </div>
@@ -221,8 +232,6 @@
         ;
 
     </script>
-
-
 
 </body>
 
